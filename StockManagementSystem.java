@@ -11,5 +11,8 @@ public class StockManagementSystem {
         System.out.println("*********************************");
         System.out.println("Stock Report are : ");
         stockFunction.stockReport();
+        System.out.println("*********************************");
+        stockFunction.credit();
+        stockFunction.debit();
     }
 }
